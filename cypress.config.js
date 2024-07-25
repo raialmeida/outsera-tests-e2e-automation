@@ -13,7 +13,7 @@ module.exports = defineConfig({
         specPattern: '**/*.feature',
         video: false,
         fixturesFolder: false,
-        pageLoadTimeout: 120000, 
+        pageLoadTimeout: 12000,
         setupNodeEvents: async function (on, config) {
             await preprocessor.addCucumberPreprocessorPlugin(on, config)
             on('file:preprocessor', browserify.default(config))
