@@ -2,7 +2,7 @@
 
 Projeto de Testes E2E (Web) - Outsera
 
-OBS: Escolher o Cypress para o seu projeto trouxe vantagens em termos de facilidade de uso, integração contínua, e capacidade de testar toda a aplicação de forma eficiente. A ferramenta não só melhora a qualidade do código ao detectar erros mais cedo, mas também aumenta a confiança na entrega contínua do produto.
+OBS: Escolhi o Cypress para o projeto porque trouxe vantagens em termos de facilidade de uso, integração contínua, e capacidade de testar toda a aplicação de forma eficiente. A ferramenta não só melhora a qualidade do código ao detectar erros mais cedo, mas também aumenta a confiança na entrega contínua do produto.
 
 Informações básicas para realizar a instalação das tecnologias e configurações para automatizar os testes. 
 
