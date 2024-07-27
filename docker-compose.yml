@@ -1,5 +1,3 @@
-version: '3'
-
 services:
   cypress-front:
     image: outsera-tests-e2e-automation
