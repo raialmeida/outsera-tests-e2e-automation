@@ -1,18 +1,18 @@
 {
   "devDependencies": {
-    "@shelex/cypress-allure-plugin": "2.40.2",
-    "cypress": "12.14.0"
+    "allure-commandline": "2.29.0",
+    "allure-cypress": "3.0.0-beta.7"
   },
   "scripts": {
-    "cy:report": "cypress run -e allure=true",
+    "cy:report": "cypress run",
     "cy:open": "cypress open --e2e --browser chrome",
     "cy:run": "cypress run --e2e --browser chrome"
   },
   "dependencies": {
-    "@badeball/cypress-cucumber-preprocessor": "20.1.0",
-    "@cypress/browserify-preprocessor": "3.0.2"
+    "cypress": "13.13.2",
+    "cypress-cucumber-preprocessor": "4.3.1"
   },
   "cypress-cucumber-preprocessor": {
-    "stepDefinitions": "cypress/e2e/steps/*.js"
+    "stepDefinitions": "cypress/e2e/steps"
   }
 }

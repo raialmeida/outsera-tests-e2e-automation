@@ -10,8 +10,8 @@ Informações básicas para realizar a instalação das tecnologias e configura�
 
 ## Dependências utilizado com cypress no projeto.
 
-+ [Allure Report](https://github.com/Shelex/cypress-allure-plugin)
-+ [Cucumber](https://github.com/badeball/cypress-cucumber-preprocessor)
++ [Allure Report](https://allurereport.org/docs/cypress/)
++ [Cucumber](https://www.npmjs.com/package/cypress-cucumber-preprocessor)
 
 ## Instalação do Gerenciado de Pacotes NodeJS.
 
@@ -42,13 +42,13 @@ npm run cy:run
 ### Para executar os testes por tags, execute no terminal:
 
 ```
-npx cypress run -e Tags=@tag
+npx cypress run -e TAGS=@tag
 ```
 
 ### Para executar os testes com report Allure, execute no terminal:
 
 ```
-npx cypress run -e allure=true
+npx cypress run
 ```
 
 * Após a execução dos testes, execute os comando abaixo para gerar e abrir o report:

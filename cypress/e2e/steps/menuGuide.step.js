@@ -1,4 +1,4 @@
-import { Given, When, Then } from '@badeball/cypress-cucumber-preprocessor'
+import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps'
 import { menuGuide } from '../pages/menuGuide.page'
 
 Given(`que acesse a plataforma`, () => {

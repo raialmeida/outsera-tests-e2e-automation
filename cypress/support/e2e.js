@@ -1,5 +1,5 @@
 import './commands'
-import '@shelex/cypress-allure-plugin'
+import "allure-cypress"
 
 // Esconder requisição fetch/XHR
 const app = window.top;
